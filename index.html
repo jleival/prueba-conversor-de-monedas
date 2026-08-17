@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Conversor de Monedas Nacional</title>
+    <!-- Librería de gráficos Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Título principal con la línea inferior idéntica a la imagen -->
+      <h1>Conversor de monedas Nacional</h1>
+
+      <!-- Tarjeta gris central -->
+      <div class="card-conversor">
+        <span class="label-pesos">Pesos CLP</span>
+        <input
+          type="number"
+          id="inputCLP"
+          placeholder="Ingrese el monto en CLP"
+          min="0"
+        />
+
+        <span class="label-moneda">Moneda a convertir:</span>
+        <select id="selectMoneda">
+          <option value="">Seleccione moneda</option>
+          <option value="dolar">Dólar</option>
+          <option value="euro">Euro</option>
+        </select>
+
+        <button id="btnBuscar">Buscar</button>
+
+        <div id="resultado">Resultado: -</div>
+      </div>
+
+      <!-- Contenedor blanco para el gráfico -->
+      <div class="chart-container">
+        <canvas id="miGrafico"></canvas>
+      </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
