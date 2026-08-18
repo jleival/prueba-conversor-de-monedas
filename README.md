@@ -2,11 +2,10 @@
 
 Este proyecto es una aplicación web funcional que permite convertir montos de Pesos Chilenos (CLP) a otras monedas (Dólar y Euro) en tiempo real, utilizando la API de [mindicador.cl](https://mindicador.cl/).
 
-## Conversor de Monedas (CLP)
+## Previsualización de la Aplicación
 
 [![GitHub Pages Status](https://img.shields.io/badge/deploy-en%20vivo-brightgreen?style=flat-square&logo=github)](https://jleival.github.io/prueba-conversor-de-monedas/)
 
-Aplicación web interactiva desarrollada con JavaScript vanilla que permite realizar conversiones de Pesos Chilenos (CLP) a Dólar y Euro utilizando datos en tiempo real de la API de mindicador.cl.
 
 ## 🚀 Enlace Directo
 Puedes probar la aplicación haciendo clic en el siguiente enlace:
